@@ -13,7 +13,7 @@ This service will take a request.json file and create two separate collections f
 ## Endpoints
 
 
-### Process Json
+### 1. Process Json
 
 `method: GET`
 
@@ -21,7 +21,7 @@ This service will take a request.json file and create two separate collections f
 
 Process request.json file and create two separate collections for Fruits and Vegetables
 
-### Get a list of Fruits
+### 2. Get a list of Fruits
 
 `method: GET`
 
@@ -38,7 +38,7 @@ Return a list of Fruits
 
 `/api/fruits?name=kiwi&quantity=10000`
 
-### Add a Fruit
+### 3. Add a Fruit
 
 `method: POST`
 
@@ -55,7 +55,7 @@ Return the created resource
 }
 ```
 
-### Get one Fruit
+### 4. Get one Fruit
 
 `method: GET`
 
@@ -68,7 +68,7 @@ Return the created resource
 
 `/api/fruit/18`
 
-### Delete one Fruit
+### 5. Delete one Fruit
 
 `method: DELETE`
 
@@ -81,7 +81,7 @@ Return the created resource
 
 `/api/fruit/18`
 
-### Advanced Search of Fruits
+### 6. Advanced Search of Fruits
 
 `method: GET`
 
@@ -97,7 +97,7 @@ Return a list of Fruits
 `/api/fruit/search?term=appl`
 
 
-### Get a list of Vegetables
+### 7. Get a list of Vegetables
 
 `method: GET`
 
@@ -114,7 +114,7 @@ Return a list of Fruits
 
 `/api/vegetables?name=onion&quantity=3000`
 
-### Add a Vegetable
+### 8. Add a Vegetable
 
 `method: POST`
 
@@ -131,7 +131,7 @@ Return the created resource
 }
 ```
 
-### Get one Vegetable
+### 9. Get one Vegetable
 
 `method: GET`
 
@@ -144,7 +144,7 @@ Return the created resource
 
 `/api/vegetable/18`
 
-### Delete one Vegetable
+### 10. Delete one Vegetable
 
 `method: DELETE`
 
@@ -157,7 +157,7 @@ Return the created resource
 
 `/api/vegetable/18`
 
-### Advanced Search of Vegetables
+### 11. Advanced Search of Vegetables
 
 `method: GET`
 
@@ -175,3 +175,4 @@ Return a list of Vegetables
 
 ## Testing
 - In the terminal Run `php bin/phpunit`.
+
